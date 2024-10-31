@@ -47,9 +47,9 @@
         "rules": [
             {
                 "rule_set": [
-                    "geosite-ir"
+                    "geosite-mm"
                 ],
-                "domain_suffix": ".ir",
+                "domain_suffix": ".mm",
                 "server": "dns-direct"
             }
         ],
@@ -99,19 +99,19 @@
         {
             "tag": "WARP-MAIN",
             "type": "wireguard",
-            "server": "162.159.192.102",
-            "server_port": 968,
+            "server": "162.159.192.106",
+            "server_port": 891,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "2EkM17xZSzu1ZPR2YF6FKUyfCq7kEobnCgciqLLSuHA=",
+            "private_key": "ENM3F4BQot1z/eA7H5m4fdo6xvZ+4Nfb+7g7uDItl3Q=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1384,
             "reserved": [
-                58,
-                121,
-                18
+                154,
+                245,
+                196
             ],
             "detour": "direct",
             "workers": 2
@@ -119,19 +119,19 @@
         {
             "tag": "WARP-WIW",
             "type": "wireguard",
-            "server": "162.159.195.204",
-            "server_port": 2371,
+            "server": "188.114.97.212",
+            "server_port": 891,
             "local_address": [
                 "172.16.0.2/32",
                 "2606:4700:110:8735:bb29:91bc:1c82:aa73/128"
             ],
-            "private_key": "uL5RGdePt0uK4hlkuS6awpyRunQjWuC6i1hAGQK9QH8=",
+            "private_key": "WM8zYRDqBVfIACZasXetjHfhPCU22JDaunuG8EiVfkg=",
             "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "mtu": 1384,
             "reserved": [
-                86,
-                86,
-                5
+                49,
+                90,
+                18
             ],
             "detour": "WARP-MAIN",
             "workers": 2
@@ -202,10 +202,10 @@
         ],
         "rule_set": [
             {
-                "tag": "geosite-ir",
+                "tag": "geosite-mm",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "url": "",
                 "download_detour": "bypass",
                 "update_interval": "1d"
             },
@@ -242,10 +242,10 @@
                 "update_interval": "1d"
             },
             {
-                "tag": "geoip-ir",
+                "tag": "geoip-mm",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "url": "https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/geo/geoip/mm.srs",
                 "download_detour": "bypass",
                 "update_interval": "1d"
             },

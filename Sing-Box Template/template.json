@@ -47,9 +47,9 @@
         "rules": [
             {
                 "rule_set": [
-                    "geosite-ir"
+                    "geosite-mm"
                 ],
-                "domain_suffix": ".ir",
+                "domain_suffix": ".mm",
                 "server": "dns-direct"
             }
         ],
@@ -159,10 +159,10 @@
         ],
         "rule_set": [
             {
-                "tag": "geosite-ir",
+                "tag": "geosite-mm",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+                "url": "",
                 "download_detour": "bypass",
                 "update_interval": "1d"
             },
@@ -199,10 +199,10 @@
                 "update_interval": "1d"
             },
             {
-                "tag": "geoip-ir",
+                "tag": "geoip-mm",
                 "type": "remote",
                 "format": "binary",
-                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+                "url": "https://github.com/KaringX/karing-ruleset/raw/refs/heads/sing/geo/geoip/mm.srs",
                 "download_detour": "bypass",
                 "update_interval": "1d"
             },
